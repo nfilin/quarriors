@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_description">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <include
+        android:id="@+id/dice1Layout"
+        layout="@layout/dice_fragment"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="28.5dp"
+        android:layout_marginTop="319.5dp"
+        />
+    &lt;!&ndash;app:layout_heightPercent="23.2%"&ndash;&gt;
+    <include
+        android:id="@+id/dice2Layout"
+        layout="@layout/dice_fragment"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="319.5dp"/>
+    <include
+        android:id="@+id/dice3Layout"
+        layout="@layout/dice_fragment"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="254dp"
+        android:layout_marginTop="319.5dp"/>
+    <include
+        android:id="@+id/dice4Layout"
+        layout="@layout/dice_fragment"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="366.5dp"
+        android:layout_marginTop="319.5dp"/>
+    <include
+        android:id="@+id/dice5Layout"
+        layout="@layout/dice_fragment"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="481dp"
+        android:layout_marginTop="319.5dp"/>
+    <include
+        android:id="@+id/dice6Layout"
+        layout="@layout/dice_fragment"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="595dp"
+        android:layout_marginTop="319.5dp"/>-->
+
+</android.support.percent.PercentRelativeLayout>

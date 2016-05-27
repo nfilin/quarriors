@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/card_border">
+
+    <include
+        android:id="@+id/artworkLayout"
+        layout="@layout/card_artwork_fragment"
+        app:layout_aspectRatio="136.40869565%"
+        app:layout_marginLeftPercent="7.254901961%"
+        app:layout_marginTopPercent="6.191865358%"
+        app:layout_widthPercent="86.470588%" />
+
+    <include
+        android:id="@+id/costLayout"
+        layout="@layout/card_cost_fragment"
+        app:layout_aspectRatio="70.7317%"
+        app:layout_marginLeftPercent="6.470588235%"
+        app:layout_marginTopPercent="6.171107994%"
+        app:layout_widthPercent="22.74509804%" />
+
+    <include
+        android:id="@+id/gloryLayout"
+        layout="@layout/card_glory_fragment"
+        app:layout_aspectRatio="177.2238514%"
+        app:layout_marginLeftPercent="75.29411765%"
+        app:layout_marginTopPercent="4.067321178%"
+        app:layout_widthPercent="21.76470588%" />
+
+    <include
+        android:id="@+id/nameLayout"
+        layout="@layout/card_name_fragment"
+        app:layout_aspectRatio="282.0454545%"
+        app:layout_marginLeftPercent="4.901960784%"
+        app:layout_marginTopPercent="40.40088827%"
+        app:layout_widthPercent="42.94117647%" />
+
+    <include
+        android:id="@+id/descriptionLayout"
+        layout="@layout/card_description_fragment"
+        app:layout_aspectRatio="146.8427673%"
+        app:layout_marginLeftPercent="4.509803922%"
+        app:layout_marginTopPercent="52.79320555%"
+        app:layout_widthPercent="91.76470588%" />
+</android.support.percent.PercentRelativeLayout>

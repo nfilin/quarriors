@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="105dp"
+    android:layout_height="105dp">
+    <!--<ImageView
+        android:id="@+id/diceLogo"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginTopPercent="25%"
+        />-->
+    <TextView
+        android:id="@+id/diceLevel"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:text="1"
+        android:textSize="25dp"
+        android:gravity="center_vertical|center_horizontal" />
+    <TextView
+        android:id="@+id/diceAttack"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+        android:text="1"
+        android:textSize="25dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:id="@+id/diceDefense"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:text="1"
+        android:textSize="25dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/diceAster1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:text="*"
+        android:textSize="25dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/diceAster2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="15dp"
+        android:text="*"
+        android:textSize="25dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textIsSelectable="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>
