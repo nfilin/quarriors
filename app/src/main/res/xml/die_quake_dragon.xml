@@ -1,0 +1,34 @@
+<resources xmlns:creature="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Creature"
+    xmlns:dice="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Dice"
+    xmlns:side="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.DiceSide">
+    <Dice
+        name="die_quake_dragon"
+        dice:background="#3e0e00"
+        dice:foreground="#fff">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="or">
+                <DiceSide side:type="quiddity"
+                    side:value="3" />
+                <DiceSide side:type="reroll" />
+            </DiceSide>
+            <Creature
+                creature:attack="4"
+                creature:defense="4"
+                creature:level="1" />
+            <Creature
+                creature:attack="6"
+                creature:defense="6"
+                creature:level="2"
+                side:mod="*" />
+            <Creature
+                creature:attack="8"
+                creature:defense="7"
+                creature:level="3"
+                side:mod="**" />
+        </sides>
+    </Dice>
+</resources>

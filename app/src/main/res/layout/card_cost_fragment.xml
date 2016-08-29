@@ -9,14 +9,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:text="cost 5"
-
-        android:textColor="#FFFFFFFF"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:textSize="14dp"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="4dp"
+
+        android:layout_marginTop="10dp"
         android:elegantTextHeight="false"
-         />
+        android:text="cost 5"
+        android:textAlignment="center"
+        android:textColor="#FFFFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold" />
 </RelativeLayout>

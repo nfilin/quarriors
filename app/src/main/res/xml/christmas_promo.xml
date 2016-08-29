@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item
+        dice="ghostly-spirit"
+        type="creature">
+        <name>Ghost of Christmas Future</name>
+    </item>
+    <item
+        dice="ghostly-spirit"
+        type="creature">
+        <name>Ghost of Christmas Past</name>
+    </item>
+    <item
+        dice="ghostly-spirit"
+        type="creature">
+        <name>Ghost of Christmas Present</name>
+    </item>
+</resources>

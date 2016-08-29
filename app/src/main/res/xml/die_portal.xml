@@ -1,0 +1,22 @@
+<resources xmlns:dice="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Dice"
+    xmlns:side="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.DiceSide">
+    <Dice
+        name="die_portal"
+        dice:background="#ffee00"
+        dice:foreground="#000">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="draw"
+                side:value="1" />
+            <DiceSide side:type="draw"
+                side:value="1" />
+            <DiceSide side:type="draw"
+                side:value="2" />
+            <DiceSide side:type="draw"
+                side:value="2" />
+            <DiceSide side:type="draw"
+                side:value="2" />
+        </sides>
+    </Dice>
+</resources>

@@ -1,0 +1,33 @@
+<resources xmlns:creature="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Creature"
+    xmlns:dice="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Dice"
+    xmlns:side="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.DiceSide">
+    <Dice
+        name="die_scavenging_goblin"
+        dice:background="#00490d"
+        dice:foreground="#c5cf00">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <Creature
+                creature:attack="2"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="2"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="2"
+                creature:defense="2"
+                creature:level="1"
+                side:mod="*" />
+            <Creature
+                creature:attack="2"
+                creature:defense="2"
+                creature:level="1"
+                side:mod="*" />
+        </sides>
+    </Dice>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:item="http://schemas.android.com/apk/lib/com.necrofilin.quarriors.quarriorscatalog.record.PsckageListItem">
+    <PackageList name="package_list">
+        <items>
+            <PackageListItem
+                item:deck="@xml/quarriors"
+                item:title="Quarriors!" />
+            <PackageListItem
+                item:deck="@xml/quarmageddon"
+                item:title="Quarmaggedon" />
+            <!--<PackageListItem id="3">Christmas Promo</PackageListItem>-->
+            <!--<PackageListItem id="4">Quarmaggedon Promo</PackageListItem>-->
+            <!--<PackageListItem id="5">Quaxos Promo</PackageListItem>-->
+            <!--<PackageListItem id="6">Quest for Qladiator</PackageListItem>-->
+            <!--<PackageListItem id="7">Rise of the Demons</PackageListItem>-->
+        </items>
+    </PackageList>
+</resources>

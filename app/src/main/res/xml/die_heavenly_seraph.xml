@@ -1,0 +1,30 @@
+<resources xmlns:creature="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Creature"
+    xmlns:dice="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Dice"
+    xmlns:side="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.DiceSide">
+    <Dice
+        name="die_heavenly_seraph"
+        dice:background="#b7ffffff"
+        dice:foreground="#78800e">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="4"
+                creature:defense="4"
+                creature:level="1" />
+            <Creature
+                creature:attack="7"
+                creature:defense="5"
+                creature:level="2" />
+            <Creature
+                creature:attack="7"
+                creature:defense="7"
+                creature:level="3"
+                side:mod="*" />
+        </sides>
+    </Dice>
+</resources>

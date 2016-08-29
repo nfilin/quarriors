@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.percent.PercentRelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cardLayout"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:gravity="center_vertical|center_horizontal"
     android:adjustViewBounds="true"
-    >
+    android:gravity="center_vertical|center_horizontal">
+
     <include
         layout="@layout/card_inner_fragment"
-        app:layout_aspectRatio="71.72207063%"
         android:layout_width="match_parent"
-        />
+        app:layout_aspectRatio="71.72207063%" />
 </android.support.percent.PercentRelativeLayout>

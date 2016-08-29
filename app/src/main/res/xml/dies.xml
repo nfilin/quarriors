@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml xmlns:creature="http://schemas.android.com/apk/lib/com.necrofilin.quarriors.quarriorscatalog.record.Creature"
+    xmlns:dice="http://schemas.android.com/apk/lib/com.necrofilin.quarriors.quarriorscatalog.record.Dice"
+    xmlns:side="http://schemas.android.com/apk/lib/com.necrofilin.quarriors.quarriorscatalog.record.DiceSide"
+    name="dies">
+    <Dice
+        name="basic_quiddity"
+        dice:background="#ffffff"
+        dice:foreground="#0067ac">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+        </sides>
+    </Dice>
+    <Dice
+        name="assistant"
+        dice:background="#682702"
+        dice:foreground="#FFFFFF">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="reroll"
+                side:mod="*" />
+            <Creature
+                creature:attack="1"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="1"
+                creature:defense="2"
+                creature:level="1" />
+        </sides>
+    </Dice>
+    <Dice
+        name="portal"
+        dice:background="#ffee00"
+        dice:foreground="#000">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="draw"
+                side:value="1" />
+            <DiceSide side:type="draw"
+                side:value="1" />
+            <DiceSide side:type="draw"
+                side:value="2" />
+            <DiceSide side:type="draw"
+                side:value="2" />
+            <DiceSide side:type="draw"
+                side:value="2" />
+        </sides>
+    </Dice>
+    <Dice
+        name="death_spell"
+        dice:background="#310054"
+        dice:foreground="#ffffff">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="spell"
+                side:mod="*" />
+            <DiceSide side:type="spell"
+                side:mod="*" />
+            <DiceSide side:type="spell"
+                side:mod="**" />
+        </sides>
+    </Dice>
+    <Dice
+        name="growth_spell"
+        dice:background="#067800"
+        dice:foreground="#ffffff">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+        </sides>
+    </Dice>
+    <Dice
+        name="life_spell"
+        dice:background="#01eabc"
+        dice:foreground="#ffffff">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+        </sides>
+    </Dice>
+    <Dice
+        name="shaping_spell"
+        dice:background="#b90094"
+        dice:foreground="#ffffff">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="draw"
+                side:value="2" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+        </sides>
+    </Dice>
+    <Dice
+        name="victory_spell"
+        dice:background="#ea8202"
+        dice:foreground="#ffffff">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="and">
+                <DiceSide side:type="reroll" />
+                <DiceSide side:type="draw"
+                    side:value="1" />
+            </DiceSide>
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+        </sides>
+    </Dice>
+    <Dice
+        name="deathdealer"
+        dice:background="#000"
+        dice:foreground="#cc0404">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="3"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="3"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="4"
+                creature:defense="4"
+                creature:level="2" />
+        </sides>
+    </Dice>
+    <Dice
+        name="defender_of_the_pale"
+        dice:background="#00008e"
+        dice:foreground="#d6d5d5">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="1"
+                creature:defense="5"
+                creature:level="1"
+                side:mod="*" />
+            <Creature
+                creature:attack="2"
+                creature:defense="6"
+                creature:level="2"
+                side:mod="*" />
+            <Creature
+                creature:attack="2"
+                creature:defense="8"
+                creature:level="3"
+                side:mod="**" />
+        </sides>
+    </Dice>
+    <Dice
+        name="devotee_of_the_holy_query"
+        dice:background="#ffffff"
+        dice:foreground="#948a00">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="0"
+                creature:defense="3"
+                creature:level="1" />
+            <Creature
+                creature:attack="0"
+                creature:defense="3"
+                creature:level="1" />
+            <Creature
+                creature:attack="2"
+                creature:defense="4"
+                creature:level="2" />
+            <Creature
+                creature:attack="2"
+                creature:defense="4"
+                creature:level="2"
+                side:mod="*" />
+        </sides>
+    </Dice>
+    <Dice
+        name="ghostly_spirit"
+        dice:background="#fff"
+        dice:foreground="#000">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="2"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="2"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="3"
+                creature:defense="3"
+                creature:level="2" />
+        </sides>
+    </Dice>
+    <Dice
+        name="primordial_ooze"
+        dice:background="#6ba901"
+        dice:foreground="#ffffff">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="\?"
+                creature:defense="\?"
+                creature:level="2" />
+            <Creature
+                creature:attack="\?"
+                creature:defense="\?"
+                creature:level="2" />
+            <Creature
+                creature:attack="\?"
+                creature:defense="\?"
+                creature:level="2" />
+        </sides>
+    </Dice>
+    <Dice
+        name="quake_dragon"
+        dice:background="#3e0e00"
+        dice:foreground="#fff">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="or">
+                <DiceSide side:type="quiddity"
+                    side:value="3" />
+                <DiceSide side:type="reroll" />
+            </DiceSide>
+            <Creature
+                creature:attack="4"
+                creature:defense="4"
+                creature:level="1" />
+            <Creature
+                creature:attack="6"
+                creature:defense="6"
+                creature:level="2"
+                side:mod="*" />
+            <Creature
+                creature:attack="8"
+                creature:defense="7"
+                creature:level="3"
+                side:mod="**" />
+        </sides>
+    </Dice>
+    <Dice
+        name="questing_wizard"
+        dice:background="#0073df"
+        dice:foreground="#ffffff">
+        <sides>
+            <DiceSide side:type="and">
+                <DiceSide side:type="quiddity"
+                    side:value="1" />
+                <DiceSide side:type="draw"
+                    side:value="2" />
+            </DiceSide>
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:mod="*"
+                side:value="2" />
+            <Creature
+                creature:attack="2"
+                creature:defense="5"
+                creature:level="1" />
+            <Creature
+                creature:attack="3"
+                creature:defense="6"
+                creature:level="2" />
+            <Creature
+                creature:attack="4"
+                creature:defense="8"
+                creature:level="3"
+                side:mod="**" />
+        </sides>
+    </Dice>
+    <Dice
+        name="scavenging_goblin"
+        dice:background="#00490d"
+        dice:foreground="#c5cf00">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <Creature
+                creature:attack="2"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="2"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="2"
+                creature:defense="2"
+                creature:level="1"
+                side:mod="*" />
+            <Creature
+                creature:attack="2"
+                creature:defense="2"
+                creature:level="1"
+                side:mod="*" />
+        </sides>
+    </Dice>
+    <Dice
+        name="witching_hag"
+        dice:background="#35003e"
+        dice:foreground="#7e9e01">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="3"
+                creature:defense="3"
+                creature:level="1" />
+            <Creature
+                creature:attack="3"
+                creature:defense="3"
+                creature:level="1" />
+            <Creature
+                creature:attack="4"
+                creature:defense="5"
+                creature:level="2" />
+        </sides>
+    </Dice>
+    <Dice
+        name="warior_of_the_quay"
+        dice:background="#a40101"
+        dice:foreground="#c1c1c1">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="2"
+                creature:defense="3"
+                creature:level="1" />
+            <Creature
+                creature:attack="2"
+                creature:defense="3"
+                creature:level="1" />
+            <Creature
+                creature:attack="3"
+                creature:defense="4"
+                creature:level="2" />
+        </sides>
+    </Dice>
+    <Dice
+        name="discriminating_spell"
+        dice:background="#c7b974"
+        dice:foreground="#ffffff">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="draw"
+                side:value="2" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+        </sides>
+    </Dice>
+    <Dice
+        name="oblation_spell"
+        dice:background="#260158"
+        dice:foreground="#ffffff">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+        </sides>
+    </Dice>
+    <Dice
+        name="mischievous_imp"
+        dice:background="#d43000"
+        dice:foreground="#ffe600">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="1"
+                creature:defense="1"
+                creature:level="1" />
+            <Creature
+                creature:attack="2"
+                creature:defense="2"
+                creature:level="2"
+                side:mod="*" />
+            <Creature
+                creature:attack="3"
+                creature:defense="3"
+                creature:level="3"
+                side:mod="**" />
+        </sides>
+    </Dice>
+    <Dice
+        name="gnome_barbarian"
+        dice:background="#5940ec"
+        dice:foreground="#af1018">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="1"
+                creature:defense="3"
+                creature:level="1"
+                side:mod="*" />
+            <Creature
+                creature:attack="1"
+                creature:defense="3"
+                creature:level="1"
+                side:mod="*" />
+            <Creature
+                creature:attack="2"
+                creature:defense="4"
+                creature:level="2" />
+            <Creature
+                creature:attack="2"
+                creature:defense="4"
+                creature:level="2" />
+        </sides>
+    </Dice>
+    <Dice
+        name="voodoo_doll"
+        dice:background="#362b07"
+        dice:foreground="#15b71d">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="3"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="4"
+                creature:defense="3"
+                creature:level="2"
+                side:mod="*" />
+            <Creature
+                creature:attack="6"
+                creature:defense="4"
+                creature:level="3" />
+        </sides>
+    </Dice>
+    <Dice
+        name="troll_behemoth"
+        dice:background="#ffe600"
+        dice:foreground="#114b14">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:mod="*"
+                side:value="2" />
+            <Creature
+                creature:attack="4"
+                creature:defense="2"
+                creature:level="1"
+                side:mod="*" />
+            <Creature
+                creature:attack="5"
+                creature:defense="3"
+                creature:level="2" />
+            <Creature
+                creature:attack="6"
+                creature:defense="6"
+                creature:level="3" />
+        </sides>
+    </Dice>
+    <Dice
+        name="lord_of_the_quarry"
+        dice:background="#4e0278"
+        dice:foreground="#af1018">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="3"
+                creature:defense="3"
+                creature:level="1" />
+            <Creature
+                creature:attack="3"
+                creature:defense="3"
+                creature:level="1" />
+            <Creature
+                creature:attack="4"
+                creature:defense="4"
+                creature:level="2"
+                side:mod="*" />
+            <Creature
+                creature:attack="8"
+                creature:defense="6"
+                creature:level="3" />
+        </sides>
+    </Dice>
+    <Dice
+        name="heavenly_seraph"
+        dice:background="#b7ffffff"
+        dice:foreground="#78800e">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="4"
+                creature:defense="4"
+                creature:level="1" />
+            <Creature
+                creature:attack="7"
+                creature:defense="5"
+                creature:level="2" />
+            <Creature
+                creature:attack="7"
+                creature:defense="7"
+                creature:level="3"
+                side:mod="*" />
+        </sides>
+    </Dice>
+</xml>

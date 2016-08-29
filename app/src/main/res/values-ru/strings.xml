@@ -1,83 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Quariors Catalog</string>
+
+    <string name="app_name">Каталог Quarriors</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Настройки</string>
 
-    <string name="Basic_Quiddity">Basic Quiddity</string>
-    <string name="Assistant">Assistant</string>
-    <string name="Portal">Portal</string>
-    <string name="Death_Cantrip">Death Cantrip</string>
-    <string name="Death_Charm">Death Charm</string>
-    <string name="Death_Incantation">Death Incantation</string>
-    <string name="Death_Spell">Death Spell</string>
-    <string name="Growth_Cantrip">Growth Cantrip</string>
-    <string name="Growth_Charm">Growth Charm</string>
-    <string name="Growth_Incantation">Growth Incantation</string>
-    <string name="Growth_Spell">Growth Spell</string>
-    <string name="Life_Cantrip">Life Cantrip</string>
-    <string name="Life_Charm">Life Charm</string>
-    <string name="Life_Incantation">Life Incantation</string>
-    <string name="Life_Spell">Life Spell</string>
-    <string name="Shaping_Cantrip">Shaping Cantrip</string>
-    <string name="Shaping_Charm">Shaping Charm</string>
-    <string name="Shaping_Incantation">Shaping Incantation</string>
-    <string name="Shaping_Spell">Shaping Spell</string>
-    <string name="Victory_Cantrip">Victory Cantrip</string>
-    <string name="Victory_Charm">Victory Charm</string>
-    <string name="Victory_Incantation">Victory Incantation</string>
-    <string name="Victory_Spell">Victory Spell</string>
-    <string name="Deathdealer">Deathdealer</string>
-    <string name="Mighty_Deathdealer">Mighty Deathdealer</string>
-    <string name="Strong_Deathdealer">Strong Deathdealer</string>
-    <string name="Defender_of_the_Pale">Defender of the Pale</string>
-    <string name="Mighty_Defender_of_the_Pale">Mighty Defender of the Pale</string>
-    <string name="Strong_Defender_of_the_Pale">Strong Defender of the Pale</string>
-    <string name="Devotee_of_the_Holy_Query">Devotee of the Holy Query</string>
-    <string name="Mighty_Devotee_of_the_Holy_Query">Mighty Devotee of the Holy Query</string>
-    <string name="Strong_Devotee_of_the_Holy_Query">Strong Devotee of the Holy Query</string>
-    <string name="Ghostly_Spirit">Ghostly Spirit</string>
-    <string name="Mighty_Ghostly_Spirit">Mighty Ghostly Spirit</string>
-    <string name="Strong_Ghostly_Spirit">Strong Ghostly Spirit</string>
-    <string name="Primordial_Ooze">Primordial Ooze</string>
-    <string name="Mighty_Primordial_Ooze">Mighty Primordial Ooze</string>
-    <string name="Strong_Primordial_Ooze">Strong Primordial Ooze</string>
-    <string name="Quake_Dragon">Quake Dragon</string>
-    <string name="Mighty_Quake_Dragon">Mighty Quake Dragon</string>
-    <string name="Strong_Quake_Dragon">Strong Quake Dragon</string>
-    <string name="Questing_Wizard">Questing Wizard</string>
-    <string name="Mighty_Questing_Wizard">Mighty Questing Wizard</string>
-    <string name="Strong_Questing_Wizard">Strong Questing Wizard</string>
-    <string name="Scavenging_Goblin">Scavenging Goblin</string>
-    <string name="Mighty_Scavenging_Goblin">Mighty Scavenging Goblin</string>
-    <string name="Strong_Scavenging_Goblin">Strong Scavenging Goblin</string>
-    <string name="Warrior_of_the_Quay">Warrior of the Quay</string>
-    <string name="Mighty_Warrior_of_the_Quay">Mighty Warrior of the Quay</string>
-    <string name="Strong_Warrior_of_the_Quay">Strong Warrior of the Quay</string>
-    <string name="Witching_Hag">Witching Hag</string>
-    <string name="Mighty_Witching_Hag">Mighty Witching Hag</string>
-    <string name="Strong_Witching_Hag">Strong Witching Hag</string>
+    <string name="Basic_Quiddity">Сущность</string>
+    <string name="Assistant">Помошник</string>
+    <string name="Portal">Портал</string>
+    <string name="Death_Cantrip">Колдовство Смерти</string>
+    <string name="Death_Charm">Волшебство Смерти</string>
+    <string name="Death_Incantation">Чары Смерти</string>
+    <string name="Death_Spell">Заклинание Смерти</string>
+    <string name="Growth_Cantrip">Колдовство Роста</string>
+    <string name="Growth_Charm">Волшебство Роста</string>
+    <string name="Growth_Incantation">Чары Роста</string>
+    <string name="Growth_Spell">Заклинание Роста</string>
+    <string name="Life_Cantrip">Колдовство Жизни</string>
+    <string name="Life_Charm">Волшебство Жизни</string>
+    <string name="Life_Incantation">Чары Жизни</string>
+    <string name="Life_Spell">Заклинание Жизни</string>
+    <string name="Shaping_Cantrip">Колдовство Формирования</string>
+    <string name="Shaping_Charm">Волшебство Формирования</string>
+    <string name="Shaping_Incantation">Чары Формирования</string>
+    <string name="Shaping_Spell">Заклинание Формирования</string>
+    <string name="Victory_Cantrip">Колдовство Победы</string>
+    <string name="Victory_Charm">Волшебство Победы</string>
+    <string name="Victory_Incantation">Чары Победы</string>
+    <string name="Victory_Spell">Заклинание Победы</string>
+    <string name="Deathdealer">Торговец Смертью</string>
+    <string name="Mighty_Deathdealer">Могучий Торговец Смертью</string>
+    <string name="Strong_Deathdealer">Сильный Торговец Смертью</string>
+    <string name="Defender_of_the_Pale">Страж Границ</string>
+    <string name="Mighty_Defender_of_the_Pale">Могучий Страж Границ</string>
+    <string name="Strong_Defender_of_the_Pale">Сильный Страж Границ</string>
+    <string name="Devotee_of_the_Holy_Query">Адепт Священного Вопроса</string>
+    <string name="Mighty_Devotee_of_the_Holy_Query">Могучий Адепт Священного Вопроса</string>
+    <string name="Strong_Devotee_of_the_Holy_Query">Сильный Адепт Священного Вопроса</string>
+    <string name="Ghostly_Spirit">Призрак</string>
+    <string name="Mighty_Ghostly_Spirit">Могучий Призрак</string>
+    <string name="Strong_Ghostly_Spirit">Сильный Призрак</string>
+    <string name="Primordial_Ooze">Первобытная Слизь</string>
+    <string name="Mighty_Primordial_Ooze">Могучая Первобытная Слизь</string>
+    <string name="Strong_Primordial_Ooze">Сильная Первобытная Слизь</string>
+    <string name="Quake_Dragon">Дракон-разрушитель</string>
+    <string name="Mighty_Quake_Dragon">Могучий Дракон-разрушитель</string>
+    <string name="Strong_Quake_Dragon">Сильный Дракон-разрушитель</string>
+    <string name="Questing_Wizard">Кудесник</string>
+    <string name="Mighty_Questing_Wizard">Могучий Кудесник</string>
+    <string name="Strong_Questing_Wizard">Сильный Кудесник</string>
+    <string name="Scavenging_Goblin">Гоблин-мусорщик</string>
+    <string name="Mighty_Scavenging_Goblin">Могучий Гоблин-мусорщик</string>
+    <string name="Strong_Scavenging_Goblin">Сильный Гоблин-мусорщик</string>
+    <string name="Warrior_of_the_Quay">Воитель с причала</string>
+    <string name="Mighty_Warrior_of_the_Quay">Могучий Воитель с причала</string>
+    <string name="Strong_Warrior_of_the_Quay">Сильный Воитель с причала</string>
+    <string name="Witching_Hag">Ведьма</string>
+    <string name="Mighty_Witching_Hag">Могучая Ведьма</string>
+    <string name="Strong_Witching_Hag">Сильная Ведьма</string>
 
 
-    <string name="Basic_Quiddity_notes_0">Card starts the game empty but as you cull these dice they are placed on this card and can be captured for 0 cost (although each die still uses up one capture for your turn).</string>
-    <string name="Assistant_attributes_0">Re-roll this dice and one another dice</string>
-    <string name="Assistant_notes_0">This is a Creature Die (official FAQ 8/15/11). If you re-roll another re-roll on this die, you can keep rolling this die (and potentially the same other die) until you don\'t get a re-roll result. It is not clear if you can choose to re-roll this die without re-rolling another die along with it.</string>
-    <string name="Portal_attributes_0">Draw and roll one dice</string>
-    <string name="Portal_attributes_1">Draw and roll two dies</string>
-    <string name="Portal_notes_0">Portal gets placed into your used pile as soon as it is used, prior to drawing any dice. If your bag is empty at this point, the Portal is placed back into your bag with the rest of your used pile. If a situation occurs where only Portal dice remain in both your bag and your used pile when you use the Draw+Roll Ability, you may turn one Portal die to show 1 Quiddity (the inevitable result if you were to keep rolling &amp; getting more dice, official FAQ 8/15/11 ).</string>
-    <string name="Death_Cantrip_attributes_0">Cast this Spell to give all Creatures in your Ready Area +2 attack for the remainder of this turn</string>
-    <string name="Death_Cantrip_attributes_1">Cast this Spell to give all Creatures in your Ready Area +3 attack for the remainder of this turn</string>
-    <string name="Death_Charm_attributes_0">This Creature gains +3 attack and +3 defense</string>
-    <string name="Death_Charm_attributes_1">This Creature gains +5 attack and +5 defense</string>
+    <string name="Basic_Quiddity_notes_0">Card starts the game empty but as you cull these dice they
+        are placed on this card and can be captured for 0 cost (although each die still uses up one
+        capture for your turn).</string>
+    <string name="Assistant_attributes_0">Перебрось этот кубик и любой другой</string>
+    <string name="Assistant_notes_0">This is a Creature Die (official FAQ 8/15/11). If you re-roll
+        another re-roll on this die, you can keep rolling this die (and potentially the same other
+        die) until you don\'t get a re-roll result. It is not clear if you can choose to re-roll
+        this die without re-rolling another die along with it.</string>
+    <string name="Portal_attributes_0">Возьмите один кубик из вашего мешочка бросьте его</string>
+    <string name="Portal_attributes_1">Возьмите два кубика из вашего мешочка бросьте их</string>
+    <string name="Portal_notes_0">Portal gets placed into your used pile as soon as it is used,
+        prior to drawing any dice. If your bag is empty at this point, the Portal is placed back
+        into your bag with the rest of your used pile. If a situation occurs where only Portal dice
+        remain in both your bag and your used pile when you use the Draw+Roll Ability, you may turn
+        one Portal die to show 1 Quiddity (the inevitable result if you were to keep rolling &amp; getting more dice, official FAQ 8/15/11 ).</string>
+    <string name="Death_Cantrip_attributes_0">Сотворите, чтобыдать все Существам в вашей Зоне Готовности +2 к атаке до конца хода</string>
+    <string name="Death_Cantrip_attributes_1">Сотворите, чтобыдать все Существам в вашей Зоне Готовности +3 к атаке до конца хода</string>
+    <string name="Death_Charm_attributes_0">Это Существо получает +3 атаке и защите</string>
+    <string name="Death_Charm_attributes_1">Это Существо получает +5 атаке и защите</string>
     <string name="Death_Charm_notes_0">Must be attached on your own turn.</string>
-    <string name="Death_Incantation_attributes_0">Cast this Spell destroy one Creature of level 2 or less</string>
-    <string name="Death_Incantation_attributes_1">Cast this Spell destroy one Creature of any level</string>
+    <string name="Death_Incantation_attributes_0">Сотворите, чтобы уничтожить 1 Существо уровня 2 или ниже</string>
+    <string name="Death_Incantation_attributes_1">Сотворите, чтобы уничтожить 1 Существо любого уровня</string>
     <string name="Death_Incantation_notes_0">The casting player chooses any Creature (Level 2 or less for *) in any player\'s Ready Area. We think this can be done immediately, so it could cancel any effects that might impact the rest of your turn (for example, Mighty Defender of the Pale), but this part is unconfirmed.</string>
-    <string name="Death_Spell_attributes_0">Cast this Spell to Destroy one Creature with defense 6 or less in each of your opponents Ready Areas</string>
+    <string name="Death_Spell_attributes_0">Сотворите, чтобы уничтожить 1 существо с защитой 6 или ниже в Зоне Готовности каждого вашего оппонента</string>
     <string name="Death_Spell_notes_0">The casting player chooses any Creature (defense of 6 or less) in each player\'s Ready Area. We think this can be done immediately, so it could cancel any effects that might impact the rest of your turn (for example, Mighty Defender of the Pale), but this part is unconfirmed.</string>
-    <string name="Growth_Cantrip_attributes_0">Gain 2 Quiddity. You may capture 1 additional Quarry Die this turn.</string>
+    <string name="Growth_Cantrip_attributes_0">Получите 2 Сущности. Вы можете захватить 1 дополнительный кубик трофеев на этом ходу</string>
     <string name="Growth_Cantrip_notes_0">Spell must be used immediately (or not used at all) and can\'t be saved until a later turn (rulebook p20).</string>
     <string name="Growth_Cantrip_notes_1">You may capture one additional Quarry die for each Growth Cantrip you cast. For example, casting 3 Growth Cantrips on a single turn would allow you to capture up to 4 Quarry dice on that turn.</string>
-    <string name="Growth_Charm_attributes_0">Cast this Spell to gain 3 Quiddity.</string>
+    <string name="Growth_Charm_attributes_0">Сотворите, т чтобы получить 3 Сущности</string>
     <string name="Growth_Charm_notes_0">Remember this can be cast now or later (and hence spent now or later)</string>
     <string name="Growth_Incantation_attributes_0">Gain 2 Quiddity. You may re-roll any 2 other dice.</string>
     <string name="Growth_Incantation_notes_0">Spell must be used immediately (or not used at all) and can\'t be saved until a later turn (rulebook p20).</string>
@@ -176,4 +187,5 @@
     <string name="Strong_Witching_Hag_attributes_0">When Witching Hag scores, you may move 1 other Creature Die from your Used Pile to your Active Pool.</string>
     <string name="Strong_Witching_Hag_notes_0">A Creature Die is any die that has at least one Creature face on it (which face is showing while in the Used Pile has no impact).</string>
     <string name="Strong_Witching_Hag_notes_1">Can select another Creature Die that just scored in the same turn (official FAQ 8/15/11).</string>
+
 </resources>

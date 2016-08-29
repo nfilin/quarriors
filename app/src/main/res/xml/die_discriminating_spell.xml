@@ -1,0 +1,19 @@
+<resources xmlns:dice="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Dice"
+    xmlns:side="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.DiceSide">
+    <Dice
+        name="die_discriminating_spell"
+        dice:background="#c7b974"
+        dice:foreground="#ffffff">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="draw"
+                side:value="2" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+            <DiceSide side:type="spell" />
+        </sides>
+    </Dice>
+</resources>

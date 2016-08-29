@@ -1,12 +1,15 @@
-package com.necrofilin.quarriors.quariorscatalog;
+package com.necrofilin.quarriorscatalog;
 
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.necrofilin.quarriorscatalog.record.PackageList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,10 +17,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Typeface face= Typeface.createFromAsset(getAssets(), "fonts/Chewy.ttf");
-        RelativeLayout costL= (RelativeLayout) findViewById(R.id.costLayout);
-        TextView costTV =  (TextView) costL.getChildAt(0);
+        Typeface face = Typeface.createFromAsset(getAssets(), "fonts/Chewy.ttf");
+        RelativeLayout costL = (RelativeLayout) findViewById(R.id.costLayout);
+        TextView costTV = (TextView) costL.getChildAt(0);
         costTV.setTypeface(face);
+        long startNanoTime, endNanoTime;
+        startNanoTime= System.nanoTime();
+        PackageList list = (PackageList) ResourceXmlParser.parse(getResources(), R.xml.package_list);
+        endNanoTime = System.nanoTime();
+
+        Log.e("CREATE.spent", String.valueOf(endNanoTime - startNanoTime));
     }
 
     @Override

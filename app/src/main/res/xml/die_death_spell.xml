@@ -1,0 +1,28 @@
+<resources xmlns:dice="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Dice"
+    xmlns:side="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.DiceSide">
+    <Dice
+        name="die_death_spell"
+        dice:background="#310054"
+        dice:foreground="#ffffff">
+        <sides>
+            <DiceSide
+                side:type="quiddity"
+                side:value="1" />
+            <DiceSide
+                side:type="quiddity"
+                side:value="2" />
+            <DiceSide
+                side:type="quiddity"
+                side:value="2" />
+            <DiceSide
+                side:type="spell"
+                side:mod="*" />
+            <DiceSide
+                side:type="spell"
+                side:mod="*" />
+            <DiceSide
+                side:type="spell"
+                side:mod="**" />
+        </sides>
+    </Dice>
+</resources>

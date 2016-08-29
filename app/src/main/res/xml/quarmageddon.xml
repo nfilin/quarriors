@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:card="http://schemas.android.com/apk/lib/com.necrofilin.quarriors.quarriorscatalog.record.Card">
+    <CardPackage name="quarmageddon">
+        <cards>
+            <Card
+                card:base="true"
+                card:cost="1"
+                card:dice="@xml/die_heavenly_seraph"
+                card:glory="1"
+                card:title="Heavenly Seraph"
+                card:type="creature">
+                <!--<attributes>
+                    <CardAttribute
+                        card_attr:icon="reroll"
+                        card_attr:mod="*"
+                        card_attr:type="immediate">Re-roll this dice and one another dice
+                    </CardAttribute>
+                </attributes>-->
+            </Card>
+        </cards>
+    </CardPackage>
+</resources>

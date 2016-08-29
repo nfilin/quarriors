@@ -1,0 +1,28 @@
+<resources xmlns:dice="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Dice"
+    xmlns:side="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.DiceSide">
+    <Dice
+        name="die_basic_quiddity"
+        dice:background="#ffffff"
+        dice:foreground="#0067ac">
+        <sides>
+            <DiceSide
+                side:type="quiddity"
+                side:value="1" />
+            <DiceSide
+                side:type="quiddity"
+                side:value="1" />
+            <DiceSide
+                side:type="quiddity"
+                side:value="1" />
+            <DiceSide
+                side:type="quiddity"
+                side:value="1" />
+            <DiceSide
+                side:type="quiddity"
+                side:value="1" />
+            <DiceSide
+                side:type="quiddity"
+                side:value="2" />
+        </sides>
+    </Dice>
+</resources>

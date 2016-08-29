@@ -1,0 +1,31 @@
+<resources xmlns:creature="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Creature"
+    xmlns:dice="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Dice"
+    xmlns:side="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.DiceSide">
+    <Dice
+        name="die_troll_behemoth"
+        dice:background="#ffe600"
+        dice:foreground="#114b14">
+        <sides>
+            <DiceSide side:type="quiddity"
+                side:value="1" />
+            <DiceSide side:type="quiddity"
+                side:value="2" />
+            <DiceSide side:type="quiddity"
+                side:mod="*"
+                side:value="2" />
+            <Creature
+                creature:attack="4"
+                creature:defense="2"
+                creature:level="1"
+                side:mod="*" />
+            <Creature
+                creature:attack="5"
+                creature:defense="3"
+                creature:level="2" />
+            <Creature
+                creature:attack="6"
+                creature:defense="6"
+                creature:level="3" />
+        </sides>
+    </Dice>
+</resources>

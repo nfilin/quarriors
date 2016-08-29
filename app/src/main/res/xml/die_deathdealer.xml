@@ -1,0 +1,32 @@
+<resources xmlns:creature="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Creature"
+    xmlns:dice="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.Dice"
+    xmlns:side="http://schemas.android.com/apk/lib/com.necrofilin.quarriorscatalog.record.DiceSide">
+    <Dice
+        name="die_deathdealer"
+        dice:background="#000"
+        dice:foreground="#cc0404">
+        <sides>
+            <DiceSide
+                side:type="quiddity"
+                side:value="1" />
+            <DiceSide
+                side:type="quiddity"
+                side:value="2" />
+            <DiceSide
+                side:type="quiddity"
+                side:value="2" />
+            <Creature
+                creature:attack="3"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="3"
+                creature:defense="2"
+                creature:level="1" />
+            <Creature
+                creature:attack="4"
+                creature:defense="4"
+                creature:level="2" />
+        </sides>
+    </Dice>
+</resources>
